@@ -34,7 +34,7 @@ import { readEnvValue } from '../utils/runtimeEnv';
 const TRACK_SAMPLE_INTERVAL_MS = 1000;
 const MAX_TRACK_POINTS = 220;
 const MIN_TRACK_POINT_DISTANCE_METERS = 250;
-const AIRCRAFT_MODEL_URI = '/models/Cesium_Air.glb';
+const AIRCRAFT_MODEL_URI = `${import.meta.env.BASE_URL}models/Cesium_Air.glb`;
 const TRACKED_AIRCRAFT_MODEL_HEADING_OFFSET_DEG = 0;
 const MIN_CAMERA_HEIGHT_M = 45;
 const MAX_CAMERA_HEIGHT_M = 120000000;

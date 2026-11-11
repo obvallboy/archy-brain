@@ -15,7 +15,7 @@ export const CITY_3D_ENABLE_HEIGHT_M = 2800000;
 export const CITY_3D_DISABLE_HEIGHT_M = 3600000;
 export const GOD_MODE_REBALANCE_INTERVAL_MS = 900;
 
-export const AIRCRAFT_MODEL_URI = '/models/Cesium_Air.glb';
+export const AIRCRAFT_MODEL_URI = `${import.meta.env.BASE_URL}models/Cesium_Air.glb`;
 export const TRACKED_AIRCRAFT_MODEL_HEADING_OFFSET_DEG = 0;
 
 export const AIRCRAFT_TRACK_VIEWS = {
